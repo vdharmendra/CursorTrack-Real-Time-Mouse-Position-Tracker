@@ -1,0 +1,58 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* RESET DEFAULT CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/* PAGE STYLE */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #edf2fa;
+  color: #fb6f92;
+font-family: 'Poppins', sans-serif;
+}
+
+.container-div {
+  display: flex;
+  text-align: center;
+}
+
+.mouse-event-div {
+  border: solid 1px #fb6f92;
+  margin: 40px;
+  margin-top: 0px;
+  min-width: 230px;
+  min-height: 110px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  border-radius: 14px;
+}
+
+.mouse-event-div h4 {
+  position: absolute;
+  top: -50px;
+  font-size: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-weight: 700;
+  color: #fb6f92;
+}
+
+@media (max-width: 500px) {
+  .container-div {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
