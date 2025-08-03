@@ -42,5 +42,5 @@ cursortrack/
 </a><br/>
 <span>👉 Desktop Design</span><br/>
 <a href="https://www.behance.net/gallery/231740463/CursorTrack-Real-Time-Mouse-Position-Tracker" target="_blank" >
-<img src="./lp.png" width="575px"/>
+<img src="./lp.png" width="275px"/>
 </a>
